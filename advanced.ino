@@ -42,7 +42,7 @@ void loop() {
     digitalWrite(buzzerPin, LOW);
   }
   
-  delay(1000); // Sensor check every second
+  delay(500); // Sensor check every second
 }
 
 void initializeGSM() {
